@@ -1,0 +1,67 @@
+
+#video {
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero {
+    height: 10vh;
+    width: 100%;
+    object-fit: contain;
+
+    position:fixed; 
+}
+
+.hero .content {
+    text-align: left;
+    position: absolute;
+    margin: auto;
+    margin-top: -9.5%;
+    margin-left: 5%;
+    width: 30%;
+    height: 100%;
+    top: 40vh;
+}
+
+.hero .content h1 {
+    font-size: 4rem;
+    color: black;
+    transition: color 1s;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 1.6rem;
+    color: black;
+    transition: color 1s;
+}
+
+.btn {
+    color: black;
+    border-radius: 2rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .hero .content h1 {
+        color: #54A9FE;
+        transition: color 1s;
+    }
+
+    .hero .content p {
+        color: #54A9FE;
+        transition: color 1s;
+    }
+
+    .btn {
+        color: #54A9FE;
+        border: 1px solid #54A9FE;
+        transition: color 1s, border 1s;
+
+    }
+}
+
